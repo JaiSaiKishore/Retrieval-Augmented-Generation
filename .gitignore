@@ -1,4 +1,60 @@
+# --- Python Environment ---
+venv/
+.venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Byte-compiled / optimized / DLL files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Project Specific Databases & Data (CRITICAL) ---
+# Prevents uploading your local vector database files
+vector_db/
+
+# Prevents uploading your raw data PDFs (keeps documents private)
+data/
+
+# --- Environment Variables / Secrets (CRITICAL) ---
+# Prevents leaking your GROQ_API_KEY to the public on GitHub
 .env
-venv
-.vscode
-data
+.env.secret
+.env.shared
+.env.local
+.env.*.local
+
+# --- Operating System Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- IDEs and Code Editors ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
