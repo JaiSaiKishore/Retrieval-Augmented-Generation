@@ -1,0 +1,12 @@
+langchain==0.2.14
+langchain-groq
+langchain-community
+langchain-chroma
+langchain-huggingface
+langgraph
+pypdf
+sentence-transformers
+rank_bm25
+python-dotenv
+streamlit
+chromadb
